@@ -10,76 +10,7 @@ namespace Week4PDTasks
     {
         static void Main(string[] args)
         {
-            /* string time = Console.ReadLine();
-             int count = 0;
-             if (time.Length == 7)
-             {
-                 for (int x = 48; x < 50; x++)
-                 {
-                     if (time[0] == x)   //to check 1st digit of time is 0 ,1 or 2 
-                     {
-                         count++;
-                         Console.WriteLine("time[0] ");
-                         Console.WriteLine("count" + count);
-
-                     }
-                 }
-                 for (int y = 1; y < 5; y = y + 3)   // only  checks first and fourth index of time
-                 {
-                     for (int x = 48; x < 58; x++)   //to check  digit is from 0 to 9
-                     {
-                         if (time[y] == x)
-                         {
-                             count++;
-                             Console.WriteLine("Time[x" + x + " " + y + "y] ");
-                             Console.WriteLine("count" + count);
-
-                         }
-                     }
-                 }
-                 if (time[2] == 58)  //to check second index of time
-                 {
-                     count++;       //58 is ascii value semi colon :
-                     Console.WriteLine("time[2]");
-                     Console.WriteLine("count" + count);
-
-                 }
-                 for (int x = 48; x < 54; x++)
-                 {
-                     if (time[3] == x)
-                     {
-                         count++;      //to check 3rd index is 0 to 5 
-                         Console.WriteLine("time[3]");
-                         Console.WriteLine("count" + count);
-
-                     }
-                 }
-                 if (time[5] == 'P' || time[5] == 'A')
-                 {
-                     count++;
-                     Console.WriteLine("time[5]");
-                     Console.WriteLine("count" + count);
-
-
-                 }
-                 if (time[6] == 'M')
-                 {
-                     count++;
-                     Console.WriteLine("time[6]");
-                     Console.WriteLine("count" + count);
-
-
-                 }
-             }
-             Console.WriteLine("count" + count);
-             if (count == 7)
-             {
-                 Console.WriteLine("Welcome");
-                 Console.WriteLine("count" + count);
-
-             }*/
-            //  Console.Read();
-
+           
             ship shipObj = new ship();
             List<ship> ShipList = new List<ship>();
             Console.Clear();
